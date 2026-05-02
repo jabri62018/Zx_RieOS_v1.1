@@ -34,7 +34,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
@@ -86,14 +86,13 @@ This repo unifies three kernels into one zero-parameter TOE:
 6. `Zx_Planck_Epoch.ipynb` - Dynamic constants, $Z(12) = 1.2$
 
 ### Visualizations
-All 7 PNG files are included in `figures.zip`:
-- `Zx_Jabri_Universe.png` - Z(x)  Spacetime  Matter flow
-- `Zx_zeros.png` - Riemann zeros on critical line  
-- `Zx_Spacetime_Wells.png` - 6 wells, Well 5 = Dark Energy
-- `Zx_t01.png` - $T_{00}$ and $T_{01}$ energy flow
-- `Zx_Periodic_Hierarchy.png` - UV cutoff at $N=5$
-- `Zx_Planck_Movie.png` - Planck foam from Z(x)
-- `Zx_Universe_now.png` - DESI 2024 match
+7. `Zx_Jabri_Universe.png` - Z(x)  Spacetime  Matter flow
+8. `Zx_zeros.png` - Riemann zeros on critical line
+9. `Zx_Spacetime_Wells.png` - 6 wells, Well 5 = Dark Energy
+10. `Zx_t01.png` - $T_{00}$ and $T_{01}$ energy flow
+11. `Zx_Periodic_Hierarchy.png` - UV cutoff at $N=5$
+12. `Zx_Planck_Movie.png` - Planck foam from Z(x)
+13. `Zx_Universe_now.png` - DESI 2024 match
 
 ## Citation v1.1
 If you use this work, please cite:
