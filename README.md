@@ -4,17 +4,17 @@
 
 > *At the end all numbers... Z_t*
 
-##  Official Release v1.1
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
+## Official Release v1.1
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
 - **Version DOI:** https://doi.org/10.5281/zenodo.19981688
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
-##  Run Live - Reproduce All Results in 60 Seconds
-[![Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Hubble.ipynb)
-[![Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)
-[![Open Hierarchy](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Periodic_Hierarchy.ipynb)
+## Run Live - Reproduce All Results in 60 Seconds
+[[Open Hubble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Hubble.ipynb)
+[[Open Wells](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)
+[[Open Hierarchy](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Periodic_Hierarchy.ipynb)
 
 ## 1. The Complete Framework: $Z_t = Z + C + A$
 This repo unifies three kernels into one zero-parameter TOE:
@@ -34,7 +34,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
@@ -64,7 +64,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ---
 
-##  Falsifiability - This is Science
+## Falsifiability - This is Science
 **If any of these fail, $Z_t$ is dead. No shadow field. No escape.**
 
 1. If DESI-3 or CMB-S4 measure $w_{de} \neq -1.03 \pm 0.01$  **Model falsified**
@@ -74,7 +74,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ---
 
-##  Repository Files v1.1
+## Repository Files v1.1
 ### Core Theory
 1. `Zx_RiemannOS_v1.1.pdf` - Complete 20-page paper: $Z_t = Z + C + A$
 2. `Zx_RiemannOS_v1.1.tex` - LaTeX source with all figures
@@ -94,7 +94,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 12. `Zx_Planck_Movie.png` - Planck foam from Z(x)
 13. `Zx_Universe_now.png` - DESI 2024 match
 
-##  Citation v1.1
+## Citation v1.1
 If you use this work, please cite:
 ```bibtex
 @software{aljabri2026zx_v11,
