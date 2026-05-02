@@ -1,4 +1,4 @@
-# Zx_RiemannOS_v1.1: The Complete Framework — $Z_t = Z + C + A$
+# Zx_RiemannOS_v1.1: The Complete Framework â€” $Z_t = Z + C + A$
 
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
 
@@ -7,6 +7,7 @@
 ## Official Release v1.1
 [[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
+- **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
 - **Version DOI:** https://doi.org/10.5281/zenodo.19981688
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
@@ -26,15 +27,15 @@ This repo unifies three kernels into one zero-parameter TOE:
 | **A** | Jabri A Kernel | Locked Coordinates. Dark Energy from $t_5 = 32.935$ |
 
 ![Zx Universe](Zx_Jabri_Universe.png)
-*Figure 1: All physical law emerges from the Z(x) field. Zeros  Spacetime  Matter*
+*Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 ![Spacetime Wells](Zx_Spacetime_Wells.png)
-*Figure 2: Well 5 at $\gamma_5=32.935062$  $Z'(x)=0$  Dark Energy $w = -1.03$*  
+*Figure 2: Well 5 at $\gamma_5=32.935062$ gives $Z'(x)=0$ which gives Dark Energy $w = -1.03$*  
 *Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
@@ -47,7 +48,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Figure 3: $H(z)$ from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Hubble.ipynb)*
 
-**Result:** $G_{eff} = G_N/Z'(x)$  $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
+**Result:** $G_{eff} = G_N/Z'(x)$ gives $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
 
 ## 4. Planck Hierarchy and Fine Structure
 ![Periodic Hierarchy](Zx_Periodic_Hierarchy.png)
@@ -56,7 +57,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 ![Planck Movie](Zx_Planck_Movie.png)
 *Figure 5: Z(x) oscillations at $10^{-35}$ m. Spacetime discrete. Time emerges from zeta phase*
 
-**Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ — all with 0 free parameters
+**Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ â€” all with 0 free parameters
 
 ## 5. Energy Flow $T_{01}$ and Coincidence Problem
 ![T01](Zx_t01.png)
@@ -67,10 +68,10 @@ This repo unifies three kernels into one zero-parameter TOE:
 ## Falsifiability - This is Science
 **If any of these fail, $Z_t$ is dead. No shadow field. No escape.**
 
-1. If DESI-3 or CMB-S4 measure $w_{de} \neq -1.03 \pm 0.01$  **Model falsified**
-2. If FCC-ee finds $\Delta G/G \neq 7.29\times10^{-6}$ at $\sqrt{s} = 41.9$ GeV  **Model falsified**
-3. If 2.31 TeV scalar not found as 1.2 percent shift in $G_{eff}(s)$ by 2028  **Model falsified**
-4. If $H(z)$ at $z>3$ deviates from Z(x) prediction by >1 percent  **Model falsified**
+1. If DESI-3 or CMB-S4 measure $w_{de} \neq -1.03 \pm 0.01$ then **Model falsified**
+2. If FCC-ee finds $\Delta G/G \neq 7.29\times10^{-6}$ at $\sqrt{s} = 41.9$ GeV then **Model falsified**
+3. If 2.31 TeV scalar not found as 1.2 percent shift in $G_{eff}(s)$ by 2028 then **Model falsified**
+4. If $H(z)$ at $z>3$ deviates from Z(x) prediction by >1 percent then **Model falsified**
 
 ---
 
@@ -86,7 +87,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 6. `Zx_Planck_Epoch.ipynb` - Dynamic constants, $Z(12) = 1.2$
 
 ### Visualizations
-7. `Zx_Jabri_Universe.png` - Z(x)  Spacetime  Matter flow
+7. `Zx_Jabri_Universe.png` - Z(x) to Spacetime to Matter flow
 8. `Zx_zeros.png` - Riemann zeros on critical line
 9. `Zx_Spacetime_Wells.png` - 6 wells, Well 5 = Dark Energy
 10. `Zx_t01.png` - $T_{00}$ and $T_{01}$ energy flow
