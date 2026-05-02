@@ -34,22 +34,22 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [`Zx_Spacetime_Wells.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Spacetime_Wells.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
 | 4 | 30.424876 | QCD | $\Lambda_{QCD} = 200$ MeV | Verified |
-| 5 | 32.935062 | **Dark Energy** | **$w = -1.03$** | **DESI 2024 ** |
+| 5 | 32.935062 | **Dark Energy** | **$w = -1.03$** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | $M_{pl} = 10^{19}$ GeV | **Cutoff** |
 
-## 3. Hubble Tension Solution: JR =  at $\gamma_5$
+## 3. Hubble Tension Solution: JR = infinity at $\gamma_5$
 ![Universe Now](Zx_Universe_now.png)
 *Figure 3: $H(z)$ from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_Hubble.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_Hubble.ipynb)*
 
-**Result:** $G_{eff} = G_N/Z'(x)$  $H_0 = 67.4$ Planck & $73.0$ SH0ES. **Tension = 0.0**
+**Result:** $G_{eff} = G_N/Z'(x)$  $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
 
-## 4. Planck Hierarchy & Fine Structure
+## 4. Planck Hierarchy and Fine Structure
 ![Periodic Hierarchy](Zx_Periodic_Hierarchy.png)
 *Figure 4: Only first 5 zeros contribute above $L_p$. Explains $G/G_F \sim 10^{-33}$ naturally*
 
@@ -68,9 +68,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 **If any of these fail, $Z_t$ is dead. No shadow field. No escape.**
 
 1. If DESI-3 or CMB-S4 measure $w_{de} \neq -1.03 \pm 0.01$  **Model falsified**
-2. If FCC-ee finds $\Delta G/G \neq 7.29\times10^{-6}$ at $\sqrt{s} = 41.9$ GeV  **Model falsified**  
-3. If 2.31 TeV scalar not found as 1.2% shift in $G_{eff}(s)$ by 2028  **Model falsified**
-4. If $H(z)$ at $z>3$ deviates from Z(x) prediction by >1%  **Model falsified**
+2. If FCC-ee finds $\Delta G/G \neq 7.29\times10^{-6}$ at $\sqrt{s} = 41.9$ GeV  **Model falsified**
+3. If 2.31 TeV scalar not found as 1.2 percent shift in $G_{eff}(s)$ by 2028  **Model falsified**
+4. If $H(z)$ at $z>3$ deviates from Z(x) prediction by >1 percent  **Model falsified**
 
 ---
 
@@ -79,20 +79,21 @@ This repo unifies three kernels into one zero-parameter TOE:
 1. `Zx_RiemannOS_v1.1.pdf` - Complete 20-page paper: $Z_t = Z + C + A$
 2. `Zx_RiemannOS_v1.1.tex` - LaTeX source with all figures
 
-### Cosmology & Simulations  
-3. `Zx_Hubble.ipynb` - Reproduce $H_0 = 67.4$ solution, 0.0 tension
+### Cosmology and Simulations
+3. `Zx_Hubble.ipynb` - Reproduce $H_0 = 67.4$ solution, 0.0 sigma tension
 4. `Zx_Spacetime_Wells.ipynb` - 6 wells data, $w = -1.03$ from $\gamma_5$
 5. `Zx_Periodic_Hierarchy.ipynb` - Planck hierarchy, $G/G_F$ from 5 zeros
 6. `Zx_Planck_Epoch.ipynb` - Dynamic constants, $Z(12) = 1.2$
 
 ### Visualizations
-7. `Zx_Jabri_Universe.png` - Z(x)  Spacetime  Matter flow
-8. `Zx_zeros.png` - Riemann zeros on critical line
-9. `Zx_Spacetime_Wells.png` - 6 wells, Well 5 = Dark Energy
-10. `Zx_t01.png` - $T_{00}$ and $T_{01}$ energy flow
-11. `Zx_Periodic_Hierarchy.png` - UV cutoff at $N=5$
-12. `Zx_Planck_Movie.png` - Planck foam from Z(x)
-13. `Zx_Universe_now.png` - DESI 2024 match
+All 7 PNG files are included in `figures.zip`:
+- `Zx_Jabri_Universe.png` - Z(x)  Spacetime  Matter flow
+- `Zx_zeros.png` - Riemann zeros on critical line  
+- `Zx_Spacetime_Wells.png` - 6 wells, Well 5 = Dark Energy
+- `Zx_t01.png` - $T_{00}$ and $T_{01}$ energy flow
+- `Zx_Periodic_Hierarchy.png` - UV cutoff at $N=5$
+- `Zx_Planck_Movie.png` - Planck foam from Z(x)
+- `Zx_Universe_now.png` - DESI 2024 match
 
 ## Citation v1.1
 If you use this work, please cite:
