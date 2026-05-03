@@ -5,7 +5,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > At the end all numbers... Z_t
 
 ## Official Release v1.2
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19645066.svg)](https://doi.org/10.5281/zenodo.19645066)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19645066.svg)](https://doi.org/10.5281/zenodo.19645066)
 - **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
 - **Version DOI:** https://doi.org/10.5281/zenodo.19645066
@@ -13,10 +13,12 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)
+[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
+
+**Note:** Images below appear after first run. Click [Run All](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb) to generate `figures` folder, then upload to repo.
 
 | Button | Input TARGET | Output | Description | Run on Mobile |
 | --- | --- | --- |
@@ -52,7 +54,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic2)*
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
