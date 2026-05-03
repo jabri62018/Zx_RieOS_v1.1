@@ -1,4 +1,4 @@
-# Zx_Mother_Function_Jabri v1.2: The Complete Framework — $Z_t = Z + C + A$
+# Zx_Mother_Function_Jabri v1.2: The Complete Framework � $Z_t = Z + C + A$
 
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
 
@@ -57,7 +57,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 [Zx_Planck_Movie.png](figures/Zx_Planck_Movie.png)  
 *Figure 5: Z(x) oscillations at $10^{-35}$ m. Spacetime discrete. Time emerges from zeta phase*
 
-**Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ — all with 0 free parameters
+**Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ � all with 0 free parameters
 
 ## 5. Energy Flow $T_{01}$ and Coincidence Problem
 [Zx_t01.png](figures/Zx_t01.png)  
@@ -65,7 +65,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ## 6. Planck Bridge: Z(12) = 1.2 Freezes Constants
 [Zx_t12.png](figures/Zx_t12.png)  
-*Figure 7: Z(x) >> 1 for t < 10⁻³⁸s. Z(12) = 1.2 at t₁₂ ≈ 10⁻³⁶s. Z → 0 after inflation.*
+*Figure 7: Z(x) >> 1 for t < 10�s. Z(12) = 1.2 at t  10�s. Z  0 after inflation.*
 
 ## 7. Riemann Zeros Input
 [Zx_zeros.png](figures/Zx_zeros.png)  
@@ -83,7 +83,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ## Repository Files v1.2
 ### Core Theory + One-Click Reproduction
-1. [`Zx_all.ipynb`](Zx_all.ipynb) - **Master Notebook**: Run All → Generates 6 CSV + 8 PNG. Zero parameters.
+1. [`Zx_all.ipynb`](Zx_all.ipynb) - **Master Notebook**: Run All  Generates 6 CSV + 8 PNG. Zero parameters.
 2. [`Zx_RiemannOS_v1.2.pdf`](Zx_RiemannOS_v1.2.pdf) - Complete 20-page paper: $Z_t = Z + C + A$
 3. [`Zx_RiemannOS_v1.2.tex`](Zx_RiemannOS_v1.2.tex) - LaTeX source with all figures
 
