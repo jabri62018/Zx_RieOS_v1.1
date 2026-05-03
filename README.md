@@ -5,10 +5,10 @@
 > *At the end all numbers... Z_t*
 
 ## Official Release v1.2
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19645066.svg)](https://doi.org/10.5281/zenodo.19645066)
 - **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
-- **Version DOI:** https://doi.org/10.5281/zenodo.xxxxx
+- **Version DOI:** https://doi.org/10.5281/zenodo.19645066
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
@@ -63,45 +63,4 @@ This repo unifies three kernels into one zero-parameter TOE:
 ![T01](figures/Zx_t01.png)  
 *Figure 6: Energy density $T_{00}$ and energy flow $T_{01}$ from Z(x). Local flow explains SH0ES vs Planck discrepancy*
 
-## 6. Planck Bridge: Z(12) = 1.2 Freezes Constants
-![Planck Bridge](figures/Zx_t12.png)  
-*Figure 7: Z(x) >> 1 for t < 10³s. Z(12) = 1.2 at t  10³s. Z to 0 after inflation.*
-
-## 7. Riemann Zeros Input
-![Riemann Zeros](figures/Zx_zeros.png)  
-*Figure 8: First 20 Riemann zeros on the critical line. Input to Z(x).*
-
-## Falsifiability - This is Science
-**If any of these fail, $Z_t$ is dead. No shadow field. No escape.**
-
-1. If DESI-3 or CMB-S4 measure $w_{de} \neq -1.03 \pm 0.01$ then **Model falsified**
-2. If FCC-ee finds $\Delta G/G \neq 7.29\times10^{-6}$ at $\sqrt{s} = 41.9$ GeV then **Model falsified**
-3. If 2.31 TeV scalar not found as 1.2 percent shift in $G_{eff}(s)$ by 2028 then **Model falsified**
-4. If $H(z)$ at $z>3$ deviates from Z(x) prediction by >1 percent then **Model falsified**
-
----
-
-## Repository Files v1.2
-### Core Theory + One-Click Reproduction
-1. [`Zx_all.ipynb`](Zx_all.ipynb) - **Master Notebook**: Run All gives 6 CSV + 8 PNG. Zero parameters.
-2. [`Zx_RiemannOS_v1.2.pdf`](Zx_RiemannOS_v1.2.pdf) - Complete 20-page paper: $Z_t = Z + C + A$
-3. [`Zx_RiemannOS_v1.2.tex`](Zx_RiemannOS_v1.2.tex) - LaTeX source with all figures
-
-### Generated Outputs from Zx_all.ipynb
-**Data**: [`data/Zx_Spacetime_Wells.csv`](data/Zx_Spacetime_Wells.csv), [`data/Zx_Island_Z119.csv`](data/Zx_Island_Z119.csv), [`data/Hz_RiemannOS_0.001.csv`](data/Hz_RiemannOS_0.001.csv), [`data/Zx_Periodic_Hierarchy.csv`](data/Zx_Periodic_Hierarchy.csv), [`data/Zx_Planck_Epochs.csv`](data/Zx_Planck_Epochs.csv), [`data/Zx_t12.csv`](data/Zx_t12.csv)
-
-**Figures**: All 8 PNG files in [`figures/`](figures/)
-
-## Citation v1.2
-If you use this work, please cite:
-```bibtex
-@software{aljabri2026zx_mother_v12,
-  author = {Al-Jabri, Abdulla},
-  title = {Zx\_Mother\_Function\_Jabri v1.2: The Complete Framework $Z_t = Z + C + A$},
-  month = may,
-  year = 2026,
-  publisher = {Zenodo},
-  version = {v1.2},
-  doi = {10.5281/zenodo.xxxxx},
-  url = {https://github.com/jabri62018/Zx_Mother_Function_Jabri}
-}
+## 6. Planck
