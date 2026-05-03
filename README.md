@@ -26,16 +26,16 @@ This repo unifies three kernels into one zero-parameter TOE:
 | **C** | Al-Jabri C Kernel | Spacetime = Written Event. $G_{\mu\nu}$ is line 5 of $Z(x)$ code |
 | **A** | Al-Jabri A Kernel | Locked Coordinates. Dark Energy from $t_5 = 32.935$ |
 
-![Zx Universe](figures/Zx_Jabri_Universe.png)
+![Zx Universe](https://zenodo.org/records/19963026/files/Zx_Jabri_Universe.png?download=1)
 *Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)
+![Spacetime Wells](https://zenodo.org/records/19963026/files/Zx_Spacetime_Wells.png?download=1)
 *Figure 2: Well 5 at $\gamma_5=32.935062$ gives $Z'(x)=0$ which gives Dark Energy $w = -1.03$*  
 *Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
@@ -44,31 +44,31 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 6 | 37.586178 | **UV Cutoff** | $M_{pl} = 10^{19}$ GeV | **Cutoff** |
 
 ## 3. Hubble Tension Solution: JR = infinity at $\gamma_5$
-![Universe Now](figures/Zx_Universe_now.png)
+![Universe Now](https://zenodo.org/records/19963026/files/Zx_Universe_now.png?download=1)
 *Figure 3: $H(z)$ from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
 **Result:** $G_{eff} = G_N/Z'(x)$ gives $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
 
 ## 4. Planck Hierarchy and Fine Structure
-![Periodic Hierarchy](figures/Zx_Periodic_Hierarchy.png)
+![Periodic Hierarchy](https://zenodo.org/records/19963026/files/Zx_Periodic_Hierarchy.png?download=1)
 *Figure 4: Only first 5 zeros contribute above $L_p$. Explains $G/G_F \sim 10^{-33}$ naturally*
 
-![Planck Movie](figures/Zx_Planck_Movie.png)
+![Planck Movie](https://zenodo.org/records/19963026/files/Zx_Planck_Movie.png?download=1)
 *Figure 5: Z(x) oscillations at $10^{-35}$ m. Spacetime discrete. Time emerges from zeta phase*
 
 **Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ — all with 0 free parameters
 
 ## 5. Energy Flow $T_{01}$ and Coincidence Problem
-![T01](figures/Zx_t01.png)
+![T01](https://zenodo.org/records/19963026/files/Zx_t01.png?download=1)
 *Figure 6: Energy density $T_{00}$ and energy flow $T_{01}$ from Z(x). Local flow explains SH0ES vs Planck discrepancy*
 
 ## 6. Planck Bridge: Z(12) = 1.2 Freezes Constants
-![Planck Bridge](figures/Zx_t12.png)
+![Planck Bridge](https://zenodo.org/records/19963026/files/Zx_t12.png?download=1)
 *Figure 7: Z(x) >> 1 for t < 10³s. Z(12) = 1.2 at t  10³s. Z to 0 after inflation.*
 
 ## 7. Riemann Zeros Input
-![Riemann Zeros](figures/Zx_zeros.png)
+![Riemann Zeros](https://zenodo.org/records/19963026/files/Zx_zeros.png?download=1)
 *Figure 8: First 20 Riemann zeros on the critical line. Input to Z(x).*
 
 ## Falsifiability - This is Science
@@ -88,9 +88,8 @@ This repo unifies three kernels into one zero-parameter TOE:
 3. [`Zx_RiemannOS_v1.2.tex`](Zx_RiemannOS_v1.2.tex) - LaTeX source with all figures
 
 ### Generated Outputs from Zx_all.ipynb
-**Data**: [`data/Zx_Spacetime_Wells.csv`](data/Zx_Spacetime_Wells.csv), [`data/Zx_Island_Z119.csv`](data/Zx_Island_Z119.csv), [`data/Hz_RiemannOS_0.001.csv`](data/Hz_RiemannOS_0.001.csv), [`data/Zx_Periodic_Hierarchy.csv`](data/Zx_Periodic_Hierarchy.csv), [`data/Zx_Planck_Epochs.csv`](data/Zx_Planck_Epochs.csv), [`data/Zx_t12.csv`](data/Zx_t12.csv)
-
-**Figures**: All 8 PNG files in [`figures/`](figures/)
+**Data**: All CSV files in [`data/`](data/)  
+**Figures**: All 8 PNG files hosted on Zenodo DOI:10.5281/zenodo.19963026
 
 ## Citation v1.2
 If you use this work, please cite:
