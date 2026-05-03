@@ -5,10 +5,10 @@
 > *At the end all numbers... Z_t*
 
 ## Official Release v1.2
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19963026.svg)](https://doi.org/10.5281/zenodo.19963026)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
 - **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
-- **Version DOI:** https://doi.org/10.5281/zenodo.19963026
+- **Version DOI:** https://doi.org/10.5281/zenodo.xxxxx
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
@@ -26,11 +26,11 @@ This repo unifies three kernels into one zero-parameter TOE:
 | **C** | Al-Jabri C Kernel | Spacetime = Written Event. $G_{\mu\nu}$ is line 5 of $Z(x)$ code |
 | **A** | Al-Jabri A Kernel | Locked Coordinates. Dark Energy from $t_5 = 32.935$ |
 
-![Zx Universe](https://zenodo.org/records/19963026/files/Zx_Jabri_Universe.png?download=1)
+![Zx Universe](figures/Zx_Jabri_Universe.png)  
 *Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
-![Spacetime Wells](https://zenodo.org/records/19963026/files/Zx_Spacetime_Wells.png?download=1)
+![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
 *Figure 2: Well 5 at $\gamma_5=32.935062$ gives $Z'(x)=0$ which gives Dark Energy $w = -1.03$*  
 *Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
@@ -44,31 +44,31 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 6 | 37.586178 | **UV Cutoff** | $M_{pl} = 10^{19}$ GeV | **Cutoff** |
 
 ## 3. Hubble Tension Solution: JR = infinity at $\gamma_5$
-![Universe Now](https://zenodo.org/records/19963026/files/Zx_Universe_now.png?download=1)
+![Universe Now](figures/Zx_Universe_now.png)  
 *Figure 3: $H(z)$ from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
 **Result:** $G_{eff} = G_N/Z'(x)$ gives $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
 
 ## 4. Planck Hierarchy and Fine Structure
-![Periodic Hierarchy](https://zenodo.org/records/19963026/files/Zx_Periodic_Hierarchy.png?download=1)
+![Periodic Hierarchy](figures/Zx_Periodic_Hierarchy.png)  
 *Figure 4: Only first 5 zeros contribute above $L_p$. Explains $G/G_F \sim 10^{-33}$ naturally*
 
-![Planck Movie](https://zenodo.org/records/19963026/files/Zx_Planck_Movie.png?download=1)
+![Planck Movie](figures/Zx_Planck_Movie.png)  
 *Figure 5: Z(x) oscillations at $10^{-35}$ m. Spacetime discrete. Time emerges from zeta phase*
 
 **Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ — all with 0 free parameters
 
 ## 5. Energy Flow $T_{01}$ and Coincidence Problem
-![T01](https://zenodo.org/records/19963026/files/Zx_t01.png?download=1)
+![T01](figures/Zx_t01.png)  
 *Figure 6: Energy density $T_{00}$ and energy flow $T_{01}$ from Z(x). Local flow explains SH0ES vs Planck discrepancy*
 
 ## 6. Planck Bridge: Z(12) = 1.2 Freezes Constants
-![Planck Bridge](https://zenodo.org/records/19963026/files/Zx_t12.png?download=1)
+![Planck Bridge](figures/Zx_t12.png)  
 *Figure 7: Z(x) >> 1 for t < 10³s. Z(12) = 1.2 at t  10³s. Z to 0 after inflation.*
 
 ## 7. Riemann Zeros Input
-![Riemann Zeros](https://zenodo.org/records/19963026/files/Zx_zeros.png?download=1)
+![Riemann Zeros](figures/Zx_zeros.png)  
 *Figure 8: First 20 Riemann zeros on the critical line. Input to Z(x).*
 
 ## Falsifiability - This is Science
@@ -88,8 +88,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 3. [`Zx_RiemannOS_v1.2.tex`](Zx_RiemannOS_v1.2.tex) - LaTeX source with all figures
 
 ### Generated Outputs from Zx_all.ipynb
-**Data**: All CSV files in [`data/`](data/)  
-**Figures**: All 8 PNG files hosted on Zenodo DOI:10.5281/zenodo.19963026
+**Data**: [`data/Zx_Spacetime_Wells.csv`](data/Zx_Spacetime_Wells.csv), [`data/Zx_Island_Z119.csv`](data/Zx_Island_Z119.csv), [`data/Hz_RiemannOS_0.001.csv`](data/Hz_RiemannOS_0.001.csv), [`data/Zx_Periodic_Hierarchy.csv`](data/Zx_Periodic_Hierarchy.csv), [`data/Zx_Planck_Epochs.csv`](data/Zx_Planck_Epochs.csv), [`data/Zx_t12.csv`](data/Zx_t12.csv)
+
+**Figures**: All 8 PNG files in [`figures/`](figures/)
 
 ## Citation v1.2
 If you use this work, please cite:
@@ -101,6 +102,6 @@ If you use this work, please cite:
   year = 2026,
   publisher = {Zenodo},
   version = {v1.2},
-  doi = {10.5281/zenodo.19963026},
+  doi = {10.5281/zenodo.xxxxx},
   url = {https://github.com/jabri62018/Zx_Mother_Function_Jabri}
 }
