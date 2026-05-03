@@ -26,16 +26,16 @@ This repo unifies three kernels into one zero-parameter TOE:
 | **C** | Jabri C Kernel | Spacetime = Written Event. $G_{\mu\nu}$ is line 5 of $Z(x)$ code |
 | **A** | Jabri A Kernel | Locked Coordinates. Dark Energy from $t_5 = 32.935$ |
 
-![Zx Universe](figures/Zx_Jabri_Universe.png)
+[Zx_Jabri_Universe.png](figures/Zx_Jabri_Universe.png)  
 *Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)
+[Zx_Spacetime_Wells.png](figures/Zx_Spacetime_Wells.png)  
 *Figure 2: Well 5 at $\gamma_5=32.935062$ gives $Z'(x)=0$ which gives Dark Energy $w = -1.03$*  
-*Run: [`Zx_all.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)*
+*Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
 | Well | $\gamma_n$ | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | $t = 10^{-36}$ s | Verified |
 | 2 | 21.022040 | Electroweak | $v = 246$ GeV | Verified |
 | 3 | 25.010858 | Higgs | $m = 125$ GeV | Verified |
@@ -44,28 +44,32 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 6 | 37.586178 | **UV Cutoff** | $M_{pl} = 10^{19}$ GeV | **Cutoff** |
 
 ## 3. Hubble Tension Solution: JR = infinity at $\gamma_5$
-![Universe Now](figures/Zx_Universe_now.png)
+[Zx_Universe_now.png](figures/Zx_Universe_now.png)  
 *Figure 3: $H(z)$ from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
-*Run: [`Zx_all.ipynb`](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)*
+*Run: [`Zx_all.ipynb`](Zx_all.ipynb)*
 
 **Result:** $G_{eff} = G_N/Z'(x)$ gives $H_0 = 67.4$ Planck and $73.0$ SH0ES. **Tension = 0.0 sigma**
 
 ## 4. Planck Hierarchy and Fine Structure
-![Periodic Hierarchy](figures/Zx_Periodic_Hierarchy.png)
+[Zx_Periodic_Hierarchy.png](figures/Zx_Periodic_Hierarchy.png)  
 *Figure 4: Only first 5 zeros contribute above $L_p$. Explains $G/G_F \sim 10^{-33}$ naturally*
 
-![Planck Movie](figures/Zx_Planck_Movie.png)
+[Zx_Planck_Movie.png](figures/Zx_Planck_Movie.png)  
 *Figure 5: Z(x) oscillations at $10^{-35}$ m. Spacetime discrete. Time emerges from zeta phase*
 
 **Key Results:** $G = 6.674\times10^{-11}$, $\alpha^{-1}=137.036$, $\Lambda = 1.1\times10^{-122}$ — all with 0 free parameters
 
 ## 5. Energy Flow $T_{01}$ and Coincidence Problem
-![T01](figures/Zx_t01.png)
+[Zx_t01.png](figures/Zx_t01.png)  
 *Figure 6: Energy density $T_{00}$ and energy flow $T_{01}$ from Z(x). Local flow explains SH0ES vs Planck discrepancy*
 
 ## 6. Planck Bridge: Z(12) = 1.2 Freezes Constants
-![Planck Bridge](figures/Zx_t12.png)
+[Zx_t12.png](figures/Zx_t12.png)  
 *Figure 7: Z(x) >> 1 for t < 10⁻³⁸s. Z(12) = 1.2 at t₁₂ ≈ 10⁻³⁶s. Z → 0 after inflation.*
+
+## 7. Riemann Zeros Input
+[Zx_zeros.png](figures/Zx_zeros.png)  
+*Figure 8: First 20 Riemann zeros on the critical line. Input to Z(x).*
 
 ## Falsifiability - This is Science
 **If any of these fail, $Z_t$ is dead. No shadow field. No escape.**
@@ -79,14 +83,14 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ## Repository Files v1.2
 ### Core Theory + One-Click Reproduction
-1. `Zx_all.ipynb` - **Master Notebook**: Run All → Generates 6 CSV + 8 PNG. Zero parameters.
-2. `Zx_RiemannOS_v1.2.pdf` - Complete 20-page paper: $Z_t = Z + C + A$
-3. `Zx_RiemannOS_v1.2.tex` - LaTeX source with all figures
+1. [`Zx_all.ipynb`](Zx_all.ipynb) - **Master Notebook**: Run All → Generates 6 CSV + 8 PNG. Zero parameters.
+2. [`Zx_RiemannOS_v1.2.pdf`](Zx_RiemannOS_v1.2.pdf) - Complete 20-page paper: $Z_t = Z + C + A$
+3. [`Zx_RiemannOS_v1.2.tex`](Zx_RiemannOS_v1.2.tex) - LaTeX source with all figures
 
 ### Generated Outputs from Zx_all.ipynb
-**Data**: `data/Zx_Spacetime_Wells.csv`, `data/Zx_Island_Z119.csv`, `data/Hz_RiemannOS_0.001.csv`, `data/Zx_Periodic_Hierarchy.csv`, `data/Zx_Planck_Epochs.csv`, `data/Zx_t12.csv`
+**Data**: [`data/Zx_Spacetime_Wells.csv`](data/Zx_Spacetime_Wells.csv), [`data/Zx_Island_Z119.csv`](data/Zx_Island_Z119.csv), [`data/Hz_RiemannOS_0.001.csv`](data/Hz_RiemannOS_0.001.csv), [`data/Zx_Periodic_Hierarchy.csv`](data/Zx_Periodic_Hierarchy.csv), [`data/Zx_Planck_Epochs.csv`](data/Zx_Planck_Epochs.csv), [`data/Zx_t12.csv`](data/Zx_t12.csv)
 
-**Figures**: `figures/Zx_Jabri_Universe.png`, `figures/Zx_zeros.png`, `figures/Zx_Spacetime_Wells.png`, `figures/Zx_t01.png`, `figures/Zx_Periodic_Hierarchy.png`, `figures/Zx_Planck_Movie.png`, `figures/Zx_Universe_now.png`, `figures/Zx_t12.png`
+**Figures**: All 8 PNG files in [`figures/`](figures/)
 
 ## Citation v1.2
 If you use this work, please cite:
