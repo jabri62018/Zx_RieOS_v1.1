@@ -1,3 +1,5 @@
+#READ.E.md_v1.1
+
 # Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026  
 > At the end all numbers... Z_t = Z + C + A
@@ -19,7 +21,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 **Note:** Images below appear after first run. Click [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) to generate `figures` folder, then upload to repo.
 
 | Button | Input TARGET | Output | Description | Run on Mobile |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
 | **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
 | **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
@@ -59,6 +61,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+#___________________
 
 ## 3. Hubble Tension Solution: JR = infinity at gamma_5
 ![Universe Now](figures/Zx_Universe_now.png)  
@@ -76,7 +79,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
 *Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
 
-**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 â€” all with 0 free parameters
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
 
 ## 5. Energy Flow T01 and Coincidence Problem
 ![T01](figures/Zx_t01.png)  
@@ -99,18 +102,6 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 **One-Click Notebook**: [`Zx_all.ipynb`](Zx_all.ipynb) generates all 6 CSV tables + 8 PNG figures + 1 MP4 film with zero parameters.
 
-## Citation
-
-If you use this software, please cite:
-
-```bibtex
-@software{aljabri2026zxv11,
-  author = {Al-Jabri, Abdulla},
-  title = {ZxRiemannOS v1.1: The Complete Framework Z_t = Z + C + A},
-  month = may,
-  year = 2026,
-  publisher = {Zenodo},
-  version = {v1.1},
-  doi = {10.5281/zenodo.19981688},
-  url = {https://github.com/jabri62018/Zx_RieOS_v1.1}
-}
+---
+**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**  
+**Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
