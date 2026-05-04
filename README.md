@@ -1,9 +1,11 @@
+#READ.E.md_v1.1الجبري
+
 # Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026  
 > At the end all numbers... Z_t = Z + C + A
 
 ## Official Release v1.1 
-[[DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
+[![DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
@@ -12,14 +14,14 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
-[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**  
 **Note:** Images below appear after first run. Click [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) to generate `figures` folder, then upload to repo.
 
 | Button | Input TARGET | Output | Description | Run on Mobile |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
 | **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
 | **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
@@ -52,13 +54,14 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
 | 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+#___________________
 
 ## 3. Hubble Tension Solution: JR = infinity at gamma_5
 ![Universe Now](figures/Zx_Universe_now.png)  
