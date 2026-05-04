@@ -5,15 +5,15 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > At the end all numbers... Z_t = Z + C + A
 
 ## Official Release v1.1
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19963026.svg)](https://doi.org/10.5281/zenodo.19963026)
+[![DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
-- **Version DOI:** https://doi.org/10.5281/zenodo.19963026
+- **Version DOI v1.1:** https://doi.org/10.5281/zenodo.19981688
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
-[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
