@@ -1,4 +1,4 @@
-#READ.E.md_v1.1
+# Zx_RieOS v1.1: The Complete Zero-Parameter Framework
 
 # Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026  
@@ -79,7 +79,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
 *Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
 
-**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 â€” all with 0 free parameters
 
 ## 5. Energy Flow T01 and Coincidence Problem
 ![T01](figures/Zx_t01.png)  
