@@ -53,8 +53,10 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
+## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
+
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -65,15 +67,6 @@ This repo unifies three kernels into one zero-parameter TOE:
 ![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
 *Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
 *Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
-
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
-*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
-*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
-
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
-*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
-*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
-#___________________
 
 ## 3. Hubble Tension Solution: JR = infinity at gamma_5
 ![Universe Now](figures/Zx_Universe_now.png)  
