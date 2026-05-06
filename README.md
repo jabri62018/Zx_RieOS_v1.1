@@ -9,7 +9,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > At the end all numbers... Z_t = Z + C + A
 
 ## Official Release v1.1 
-[![DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
+[[DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
 - **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
@@ -18,7 +18,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
+[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**  
@@ -53,18 +53,19 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
-*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
-*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
 | 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+
+![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
+*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
+*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
 #___________________
 
 ## 3. Hubble Tension Solution: JR = infinity at gamma_5
@@ -108,16 +109,16 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ## 9. All Zx Zenodo Records - Published DOI List
 
-      Zenodo  DOI :
+All records are Published on Zenodo with verified DOI.
 
-| # | Record ID | DOI | Type | Link |
-| --- | --- | --- | --- | --- |
-| 1 | 19981688 | 10.5281/zenodo.19981688 | Software | https://doi.org/10.5281/zenodo.19981688 |
-| 2 | 19963026 | 10.5281/zenodo.19963026 | Publication | https://doi.org/10.5281/zenodo.19963026 |
-| 3 | 19956313 | 10.5281/zenodo.19956313 | Publication | https://doi.org/10.5281/zenodo.19956313 |
-| 4 | 19700735 | 10.5281/zenodo.19700735 | Publication | https://doi.org/10.5281/zenodo.19700735 |
-| 5-7 | 19644689 | 10.5281/zenodo.19644689 | Dataset | https://doi.org/10.5281/zenodo.19644689 |
-| 8 | 19645066 | 10.5281/zenodo.19645066 | Publication | https://doi.org/10.5281/zenodo.19645066 |
+| # | Record ID | DOI | Type |
+| --- | --- | --- | --- |
+| 1 | 19981688 | [10.5281/zenodo.19981688](https://doi.org/10.5281/zenodo.19981688) | Software |
+| 2 | 19963026 | [10.5281/zenodo.19963026](https://doi.org/10.5281/zenodo.19963026) | Publication |
+| 3 | 19956313 | [10.5281/zenodo.19956313](https://doi.org/10.5281/zenodo.19956313) | Publication |
+| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19700735) | Publication |
+| 5-7 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
+| 8 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
 
 **Usage in Zx_all.ipynb:**
 
