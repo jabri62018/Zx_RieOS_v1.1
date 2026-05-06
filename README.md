@@ -51,7 +51,6 @@ This repo unifies three kernels into one zero-parameter TOE:
 ![Zx Universe](figures/Zx_Jabri_Universe.png)  
 *Figure 8: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*  
 *Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
-
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
@@ -62,6 +61,10 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+
+![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
+*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
+*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
 
 ![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
 *Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
