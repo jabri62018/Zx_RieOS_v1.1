@@ -83,7 +83,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
 *Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
 
-**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 â€” all with 0 free parameters
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
 
 ## 5. Energy Flow T01 and Coincidence Problem
 ![T01](figures/Zx_t01.png)  
@@ -106,6 +106,31 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 **One-Click Notebook**: [`Zx_all.ipynb`](Zx_all.ipynb) generates all 6 CSV tables + 8 PNG figures + 1 MP4 film with zero parameters.
 
----
-**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**  
-**Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
+## 9. All Zx Zenodo Records - Published DOI List
+
+      Zenodo  DOI :
+
+| # | Record ID | DOI | Type | Link |
+| --- | --- | --- | --- | --- |
+| 1 | 19981688 | 10.5281/zenodo.19981688 | Software | https://doi.org/10.5281/zenodo.19981688 |
+| 2 | 19963026 | 10.5281/zenodo.19963026 | Publication | https://doi.org/10.5281/zenodo.19963026 |
+| 3 | 19956313 | 10.5281/zenodo.19956313 | Publication | https://doi.org/10.5281/zenodo.19956313 |
+| 4 | 19700735 | 10.5281/zenodo.19700735 | Publication | https://doi.org/10.5281/zenodo.19700735 |
+| 5-7 | 19644689 | 10.5281/zenodo.19644689 | Dataset | https://doi.org/10.5281/zenodo.19644689 |
+| 8 | 19645066 | 10.5281/zenodo.19645066 | Publication | https://doi.org/10.5281/zenodo.19645066 |
+
+**Usage in Zx_all.ipynb:**
+
+```python
+Zx_records = {
+    "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
+    "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
+    "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
+    "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
+    "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},  # Versions 5,6,7
+    "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
+}
+
+# Load all records
+for rec_id, data in Zx_records.items():
+    print(f"Loading {rec_id}: {data['doi']}")
