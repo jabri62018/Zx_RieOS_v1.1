@@ -18,6 +18,9 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
+| Button | Input TARGET | Output | Description | Run on Mobile |
+| --- | --- | --- |
+| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
 [[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
