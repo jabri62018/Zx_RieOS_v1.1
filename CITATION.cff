@@ -1,3 +1,1 @@
-cff-version: 1.2.0
-doi: "10.5281/zenodo.20070594"
-date-released: 2026-05-07
+@software{AlJabri_Zx_RieOS_2026, author = {Al-Jabri, Abdulla}, title = {Zx_RieOS v1.1: Zero-Parameter Theory of Everything}, version = {1.1}, doi = {10.5281/zenodo.20070594}, url = {https://github.com/jabri62018/Zx_RieOS_v1.1}, year = {2026} }
