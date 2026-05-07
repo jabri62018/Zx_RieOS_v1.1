@@ -1,41 +1,27 @@
+# File Name = CITATION.cff
+# Created for = Jabri RiemannOS v1.0 Paper
+# Author = Abdulla Al-Jabri
+# Date = Tue. 29 April 2026 AD - 7 Dhul Hijjah 1447 AH
+# Purpose = Citation File Format for Jabri RiemannOS
+
 cff-version: 1.2.0
-title: "Zx_RieOS v1.1: Zero-Parameter Theory of Everything"
-message: "If you use this software, please cite it using these metadata."
-version: 1.1
+message: "If you use this work, please cite it as below."
+type: article
 authors:
     - family-names: Al-Jabri
-    given-names: Abdulla
-    orcid: "https://orcid.org/0009-0003-3319-3822"
-year: 2026
-doi: 10.5281/zenodo.20070594
-url: "https://github.com/jabri62018/Zx_RieOS_v1.1"
-repository-code: "https://github.com/jabri62018/Zx_RieOS_v1.1"
-license: "MIT"
+    given-names: Abdulla M.
+    orcid: https://orcid.org/0009-0003-3319-3822
+title: "Jabri RiemannOS v1.0: Z_t = Z + C + A - The Zeta-Generated Theory of Spacetime and Dark Energy"
+version: 1.0
+doi: 10.5281/zenodo.19897247
+date-released: 2026-04-29
+repository-code: https://github.com/Jabri62018/Jabri-RiemannOS
+url: https://doi.org/10.5281/zenodo.19897247
 keywords:
-    - "Zx_RieOS"
-    - "theory-of-everything"
-    - "zero-parameter-physics"
-    - "Riemann-Hilbert"
-    - "cosmology"
-identifiers:
-    - type: doi
-    value: "10.5281/zenodo.20070594"
-    description: "v1.1 Final Release - Current and authoritative"
-    - type: doi
-    value: "10.5281/zenodo.19981688"
-    description: "Superseded: Software v1.0"
-    - type: doi
-    value: "10.5281/zenodo.19963026"
-    description: "Superseded: Publication"
-    - type: doi
-    value: "10.5281/zenodo.19956313"
-    description: "Superseded: Publication"
-    - type: doi
-    value: "10.5281/zenodo.19700735"
-    description: "Superseded: Publication"
-    - type: doi
-    value: "10.5281/zenodo.19644689"
-    description: "Superseded: Dataset"
-    - type: doi
-    value: "10.5281/zenodo.19645066"
-    description: "Superseded: Publication"
+    - Riemann Hypothesis
+    - Dark Energy
+    - Quantum Gravity
+    - Zeta Function
+    - Z(x) Field
+    - Hubble Tension
+license: MIT
