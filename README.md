@@ -1,14 +1,14 @@
-## Zx_RieOS v1.1 
+## Zx_RieOS v1.1
+
 **Zx_RieOS: A Computational Framework for Riemann-Hilbert Correspondence in Cosmology**
 
 DOI: 10.5281/zenodo.19981688
 
 # Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
-Riemann 1859 + Einstein 1915 = Al-Jabri 2026
-
+Riemann 1859 + Einstein 1915 = Al-Jabri 2026  
 > At the end all numbers... Z_t = Z + C + A
 
-## Official Release v1.1
+## Official Release v1.1 
 [[DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 
 - **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
@@ -21,10 +21,8 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 [[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
-**Buttons optional for single output. Runs on mobile in 60 seconds**
-
+**Buttons optional for single output. Runs on mobile in 60 seconds**  
 **Note:** Images below appear after first run.
-
 | Button | Input TARGET | Output | Description | Run on Mobile |
 | --- | --- | --- |
 | **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
@@ -49,8 +47,8 @@ This repo unifies three kernels into one zero-parameter TOE:
 | **C** | Al-Jabri C Kernel | Spacetime = Written Event. G_munu is line 5 of Z(x) code |
 | **A** | Al-Jabri A Kernel | Locked Coordinates. Dark Energy from t_5 = 32.935 |
 
-![Zx Universe](figures/Zx_Jabri_Universe.png)  
-*Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*  
+![Zx Universe](Zx_Jabri_Universe.png)  
+*Figure 8: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*  
 *Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
@@ -64,91 +62,41 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
 
-![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
-*Figure 2: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
+![Spacetime Wells](Zx_Spacetime_Wells.png)  
+*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
 *Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
 
 ## 3. Hubble Tension Solution: JR = infinity at gamma_5
-
-| Survey | H0_Measured | H0_Zx_Model | sigma_Tension |
-| --- | --- | --- | --- |
-| Planck 2018 | 67.4 | 67.4 | 0.0 |
-| SH0ES 2020 | 73.0 | 73.0 | 0.0 |
-| DESI 2024 | 68.2 | 68.2 | 0.0 |
-
-![Universe Now](figures/Zx_Universe_now.png)  
+![Universe Now](Zx_Universe_now.png)  
 *Figure 3: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
 *Run: [Button pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3)*
 
 **Result:** G_eff = G_N/Z'(x) gives H_0 = 67.4 Planck and 73.0 SH0ES. **Tension = 0.0 sigma**
 
 ## 4. Planck Hierarchy and Fine Structure
-
-| n | Zero_gamma | Contribution | Cumulative |
-| --- | --- | --- | --- |
-| 1 | 14.134725 | 2.5e-7 | 2.5e-7 |
-| 2 | 21.022040 | 3.1e-14 | 2.5e-7 |
-| 3 | 25.010858 | 4.2e-21 | 2.5e-7 |
-| 4 | 30.424876 | 5.8e-28 | 2.5e-7 |
-| 5 | 32.935062 | 1.3e-33 | 1.3e-33 |
-
-![Periodic Hierarchy](figures/Zx_Periodic_Hierarchy.png)  
+![Periodic Hierarchy](Zx_Periodic_Hierarchy.png)  
 *Figure 4: Only first 5 zeros contribute above L_p. Explains G/G_F ~ 10^-33 naturally*  
 *Run: [Button pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4)*
 
-| Constant | Zx_Model | CODATA_2018 | Error |
-| --- | --- | --- | --- |
-| G | 6.67430e-11 | 6.67430e-11 | 0 |
-| hbar | 1.0545718e-34 | 1.0545718e-34 | 0 |
-| c | 299792458 | 299792458 | 0 |
-| alpha^-1 | 137.035999 | 137.035999 | 0 |
-| Lambda | 1.1e-52 | 1.1e-52 | 0 |
-
-![Planck Movie](figures/Zx_Planck_Movie.png)  
+![Planck Movie](Zx_Planck_Movie.png)  
 *Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
 *Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
 
 **Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
 
 ## 5. Energy Flow T01 and Coincidence Problem
-
-| t_Gyr | T00_rhoc | T01 |
-| --- | --- | --- |
-| 0.0 | 1.000 | 0.000 |
-| 4.0 | 0.720 | 0.021 |
-| 8.0 | 0.520 | 0.033 |
-| 13.8 | 0.315 | 0.041 |
-
-![T01](figures/Zx_t01.png)  
-*Figure 6: Energy density T00 and energy flow T01 from Z(x). Local flow explains SH0ES vs Planck discrepancy*  
+![T01](Zx_t01.png)  
+*Figure 2: Energy density T00 and energy flow T01 from Z(x). Local flow explains SH0ES vs Planck discrepancy*  
 *Run: [Button pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6)*
 
 ## 6. Planck Bridge t12: Where Constants Freeze
-
-| Parameter | Before_t12 | After_t12 |
-| --- | --- | --- |
-| Z(x) | Oscillating | -23.282631 |
-| G | Variable | 6.674e-11 |
-| alpha | Variable | 1/137.036 |
-| Lambda | Variable | 1.1e-52 |
-
-![t12](figures/Zx_t12.png)  
-*Figure 7: At t12 ~ 10^-36 s, Z(12) = 1.2 freezes G, alpha, Lambda. End of Inflation*  
+![t12](Zx_t12.png)  
+*Figure 6: At t12 ~ 10^-36 s, Z(12) = 1.2 freezes G, alpha, Lambda. End of Inflation*  
 *Run: [Button pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7)*
 
 ## 7. Riemann Zeros = Foundation of Reality
-
-| Well | gamma_n | Z_gamma | Zprime_gamma |
-| --- | --- | --- | --- |
-| 1 | 14.134725 | 0.000 | -0.024 |
-| 2 | 21.022040 | 0.000 | 0.018 |
-| 3 | 25.010858 | 0.000 | -0.015 |
-| 4 | 30.424876 | 0.000 | 0.012 |
-| 5 | 32.935062 | 0.000 | 0.000 |
-| 6 | 37.586178 | 0.000 | -0.010 |
-
-![zeros](figures/Zx_zeros.png)  
-*Figure 8: First 6 zeros on critical line Re(s) = 1/2 generate all 6 quantum wells*  
+![zeros](Zx_zeros.png)  
+*Figure 7: First 6 zeros on critical line Re(s) = 1/2 generate all 6 quantum wells*  
 *Run: [Button pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8)*
 
 ## 8. The Complete Film: From Zeros to Universe
@@ -158,6 +106,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 **One-Click Notebook**: [`Zx_all.ipynb`](Zx_all.ipynb) generates all 6 CSV tables + 8 PNG figures + 1 MP4 film with zero parameters.
 
 ## 9. All Zx Zenodo Records - Published DOI List
+
 All records are Published on Zenodo with verified DOI.
 
 | # | Record ID | DOI | Type |
@@ -165,17 +114,18 @@ All records are Published on Zenodo with verified DOI.
 | 1 | 19981688 | [10.5281/zenodo.19981688](https://doi.org/10.5281/zenodo.19981688) | Software |
 | 2 | 19963026 | [10.5281/zenodo.19963026](https://doi.org/10.5281/zenodo.19963026) | Publication |
 | 3 | 19956313 | [10.5281/zenodo.19956313](https://doi.org/10.5281/zenodo.19956313) | Publication |
-| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19700735) | Publication |
-| 5 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
-| 6 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
+| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19981688) | Publication |
+| 5-7 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
+| 8 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
 
 **Usage in Zx_all.ipynb:**
+
 ```python
 Zx_records = {
-  "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
-  "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
-  "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
-  "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
-  "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},
-  "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
+    "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
+    "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
+    "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
+    "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
+    "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},
+    "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
 }
