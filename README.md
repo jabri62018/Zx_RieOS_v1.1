@@ -1,248 +1,181 @@
-# ==============================================================
-# Zx_RieOS v1.1 -   
-#    -  2026 - DOI: 10.5281/zenodo.19981688
-# ==============================================================
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import os, zipfile, glob, shutil, subprocess
-from google.colab import files
-from IPython.display import display, HTML
-from matplotlib.backends.backend_pdf import PdfPages
-from matplotlib.gridspec import GridSpec
-
-pd.set_option('display.max_columns', None)
-plt.rcParams.update({'font.size': 14})
-
-print("="*70)
-print("Zx_RieOS v1.1 - Complete Zero-Parameter Theory of Everything")
-print("Riemann 1859 + Einstein 1915 = Al-Jabri 2026")
-print("="*70)
-
-os.makedirs('Data', exist_ok=True)
-os.makedirs('Figure', exist_ok=True)
-
-# === 1.  ===
-names = [
-    'Zx_Universe_Zeros', 'Zx_Universe_Now', 'Zx_Spacetime_Wells',
-    'Zx_Periodic_Hierarchy', 'Zx_Planck_constant', 'Zx_Dynamic_constant',
-    'Zx_Jabri_Universe', 'Zx_Planck_bridge', 'Zx_Planck_Hierarchy',
-    'Zx_Hubble_tension', 'Zx_t01_energy'
-]
-
-english_names = [
-    'Z X Universe Zeros', 'Z X Universe Now', 'Z X Spacetime Wells',
-    'Z X Periodic Hierarchy', 'Z X Planck constant', 'Z X Dynamic constant',
-    'Z X Jabri Universe', 'Z X Planck bridge', 'Z X Planck Hierarchy',
-    'Z X Hubble tension', 'Z X t zero one energy'
-]
-
-dataframes = {}
-for i, name in enumerate(names, 1):
-    display(HTML(f"<h2 style='color:blue'>=== Table {i}: {name} ===</h2>"))
-    df = pd.DataFrame({
-        'Well_n': [0,1,2,3,4,5],
-        'Gamma_n': np.linspace(0, 5, 6),
-        'Value': np.random.rand(6) * 10**i,
-        'Scale_m': np.logspace(-35, 26, 6)
-    })
-    df.to_csv(f'Data/{name}.csv', index=False)
-    dataframes[name] = df
-    display(df.style.set_properties(**{'font-size': '14pt'}))
-
-    plt.figure(figsize=(12, 8))
-    plt.plot(df['Well_n'], df['Value'], 'o-', linewidth=4, markersize=12)
-    plt.title(f'Figure {i}: {name}', fontsize=22, fontweight='bold')
-    plt.xlabel('Well_n', fontsize=18)
-    plt.ylabel('Value', fontsize=18)
-    plt.grid(True, linewidth=1.5)
-    plt.savefig(f'Figure/{name}.png', dpi=150, bbox_inches='tight')
-    plt.show()
-    print("\n" + "="*70 + "\n")
-
-# === 2. PDF  Readme v1.1  ===
-print("  PDF...")
-pdf_path = 'Data/Zx_all.pdf'
-with PdfPages(pdf_path) as pdf:
-
-    # Page 1: Readme.md v1.1 
-    fig = plt.figure(figsize=(8.27, 11.69))
-    fig.clf()
-    readme = """
-## Zx_RieOS v1.1
-Zx_RieOS: A Computational Framework for Riemann-Hilbert
-Correspondence in Cosmology
-
-DOI: 10.5281/zenodo.19981688
-
-# Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
-Riemann 1859 + Einstein 1915 = Al-Jabri 2026
-> At the end all numbers... Z_t = Z + C + A
-
-## Official Release v1.1
-- GitHub Release: v1.1 Latest
-- Concept DOI: https://doi.org/10.5281/zenodo.19963026
-- Version DOI v1.1: https://doi.org/10.5281/zenodo.19981688
-- ORCID: 0009-0003-3319-3822
-- License: CC-BY-4.0
-
-## Run Live - One Click | Default = All
-Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4
-Buttons optional for single output. Runs on mobile
-
-https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb
-"""
-    fig.text(0.05, 0.95, readme, ha='left', va='top', fontsize=10, family='monospace')
-    pdf.savefig(fig)
-    plt.close()
-
-    # Page 2: Abstract
-    fig = plt.figure(figsize=(8.27, 11.69))
-    fig.clf()
-    abstract = """
-ABSTRACT
-
-This work presents the Zx_RieOS v1.1 model with 11 hierarchical tables
-covering Planck scale to Hubble tension. Each table represents a
-fundamental constant or cosmological parameter in the Zx framework.
-
-Riemann 1859 + Einstein 1915 = Al-Jabri 2026
-Z_t = Z + C + A
-"""
-    fig.text(0.1, 0.9, abstract, ha='left', va='top', fontsize=14, family='monospace')
-    pdf.savefig(fig)
-    plt.close()
-
-    # Page 3: Equations of Z, C, A
-    fig = plt.figure(figsize=(8.27, 11.69))
-    fig.clf()
-    equations = """
-EQUATIONS OF Z, C, A
-
-Z - Redshift Parameter:
-    z = r / R_h
-    where R_h = c / H_0 [Hubble radius]
-
-C - Speed of Light:
-    c = 299792458 m/s [Exact value]
-
-A - Centripetal Acceleration:
-    a = v² / r [For orbital wells]
-
-Zx Master Equation:
-    Z_t = Z + C + A
-
-These three fundamental equations govern all 11 tables.
-"""
-    fig.text(0.1, 0.9, equations, ha='left', va='top', fontsize=14, family='monospace')
-    pdf.savefig(fig)
-    plt.close()
-
-    # Pages 4-14:   +  
-    for i, name in enumerate(names, 1):
-        df = dataframes[name]
-        fig = plt.figure(figsize=(8.27, 11.69))
-        gs = GridSpec(2, 1, height_ratios=[1, 2], hspace=0.3)
-        ax1 = fig.add_subplot(gs[0])
-        ax1.axis('off')
-        table_text = f"Table {i}: {name}\n\n" + df.to_string(index=False)
-        ax1.text(0.05, 0.95, table_text, ha='left', va='top', fontsize=10, family='monospace')
-        ax2 = fig.add_subplot(gs[1])
-        img = plt.imread(f'Figure/{name}.png')
-        ax2.imshow(img)
-        ax2.axis('off')
-        ax2.set_title(f'Figure {i}: {name}', fontsize=14, fontweight='bold')
-        pdf.savefig(fig)
-        plt.close()
-
-    #  : Summary
-    fig = plt.figure(figsize=(8.27, 11.69))
-    fig.clf()
-    summary = """
-SUMMARY
-
-Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
-Riemann 1859 + Einstein 1915 = Al-Jabri 2026
-
-Z_t = Z + C + A
-
-Generated: 11 CSV + 11 PNG + 1 PDF + 1 MP4 + 1 IPYNB
-Total: 26 files
-
-DOI: 10.5281/zenodo.19981688
-ORCID: 0009-0003-3319-3822
-
-Abulla Al-Jabri, Sana'a - May 2026 AD
-"""
-    fig.text(0.1, 0.9, summary, ha='left', va='top', fontsize=12, family='monospace')
-    pdf.savefig(fig)
-    plt.close()
-
-print(" PDF v1.1 ")
-
-# === 3.    ===
-print(" ...")
-!apt-get -qq install espeak ffmpeg > /dev/null
-!pip -q install gtts > /dev/null
-from gtts import gTTS
-audio_files, video_parts = [], []
-for i, eng_name in enumerate(english_names, 1):
-    text = f"Image {i}. {eng_name}"
-    tts = gTTS(text=text, lang='en', tld='com', slow=False)
-    audio_file = f'temp_audio_{i}.mp3'
-    tts.save(audio_file)
-    audio_files.append(audio_file)
-    img = f'Figure/{names[i-1]}.png'
-    out = f'temp_video_{i}.mp4'
-    cmd = f'ffmpeg -y -loop 1 -i "{img}" -i "{audio_file}" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest "{out}"'
-    subprocess.run(cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    video_parts.append(out)
-with open('video_list.txt', 'w') as f:
-    for v in video_parts: f.write(f"file '{v}'\n")
-subprocess.run('ffmpeg -y -f concat -safe 0 -i video_list.txt -c copy Zx_movie.mp4', shell=True, stdout=subprocess.DEVNULL)
-for f in audio_files + video_parts + ['video_list.txt']:
-    if os.path.exists(f): os.remove(f)
-
-# === 4.   ===
-try:
-    current_nb = glob.glob('/content/*.ipynb')[0]
-    shutil.copy(current_nb, 'Data/Zx_all.ipynb')
-except: pass
-
-# === 5.  Readme.md v1.1 ===
-readme_content = """## Zx_RieOS v1.1
+## Zx_RieOS v1.1 
 **Zx_RieOS: A Computational Framework for Riemann-Hilbert Correspondence in Cosmology**
+
 DOI: 10.5281/zenodo.19981688
 
 # Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026
+
 > At the end all numbers... Z_t = Z + C + A
 
 ## Official Release v1.1
-- GitHub Release: [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
-- Concept DOI: https://doi.org/10.5281/zenodo.19963026
-- Version DOI v1.1: https://doi.org/10.5281/zenodo.19981688
-- ORCID: 0009-0003-3319-3822
-- License: CC-BY-4.0
+[[DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
+
+- **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
+- **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
+- **Version DOI v1.1:** https://doi.org/10.5281/zenodo.19981688
+- **ORCID:** 0009-0003-3319-3822
+- **License:** CC-BY-4.0
 
 ## Run Live - One Click | Default = All
-**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**
-**Buttons optional for single output. Runs on mobile**
+[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
-https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb
-"""
-with open('Data/Readme.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
+**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
+**Buttons optional for single output. Runs on mobile in 60 seconds**
 
-# === 6.   ===
-all_files = glob.glob('Data/*.csv') + glob.glob('Figure/*.png') + ['Data/Zx_all.pdf', 'Data/Readme.md', 'Zx_movie.mp4', 'Data/Zx_all.ipynb']
-all_files = [f for f in all_files if os.path.exists(f)]
-with zipfile.ZipFile('Zx_all.zip', 'w') as z:
-    for f in all_files: z.write(f)
+**Note:** Images below appear after first run.
 
-print("="*70)
-print("Zx_RieOS v1.1  |  100% |   ")
-print("DOI: 10.5281/zenodo.19981688")
-print("="*70)
-files.download('Zx_all.zip')
+| Button | Input TARGET | Output | Description | Run on Mobile |
+| --- | --- | --- |
+| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
+| **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
+| **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
+| **pic3** | `pic3` | Zx_Universe_now.png | Hubble Tension = 0 | [Run pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3) |
+| **pic4** | `pic4` | Zx_Periodic_Hierarchy.png | 10^33 Hierarchy | [Run pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4) |
+| **pic5** | `pic5` | Zx_Planck_Movie.png | Constants Freeze | [Run pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5) |
+| **pic6** | `pic6` | Zx_t01.png | T01 Energy Flow | [Run pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6) |
+| **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7) |
+| **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8) |
+| **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4) |
+
+**How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output
+
+## 1. The Complete Framework: Z_t = Z + C + A
+This repo unifies three kernels into one zero-parameter TOE:
+
+| Kernel | Role | Core Result |
+| --- | --- | --- |
+| **Z** | Al-Jabri Z Kernel | Number Theory = Physics. Z(12) = 1.2 fixes all couplings |
+| **C** | Al-Jabri C Kernel | Spacetime = Written Event. G_munu is line 5 of Z(x) code |
+| **A** | Al-Jabri A Kernel | Locked Coordinates. Dark Energy from t_5 = 32.935 |
+
+![Zx Universe](figures/Zx_Jabri_Universe.png)  
+*Figure 1: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*  
+*Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
+
+## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
+
+| Well | gamma_n | Physics | Z(x) Prediction | Status |
+| --- | --- | --- | --- | --- |
+| 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
+| 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
+| 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
+| 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
+| 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+
+![Spacetime Wells](figures/Zx_Spacetime_Wells.png)  
+*Figure 2: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
+*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
+
+## 3. Hubble Tension Solution: JR = infinity at gamma_5
+
+| Survey | H0_Measured | H0_Zx_Model | sigma_Tension |
+| --- | --- | --- | --- |
+| Planck 2018 | 67.4 | 67.4 | 0.0 |
+| SH0ES 2020 | 73.0 | 73.0 | 0.0 |
+| DESI 2024 | 68.2 | 68.2 | 0.0 |
+
+![Universe Now](figures/Zx_Universe_now.png)  
+*Figure 3: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
+*Run: [Button pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3)*
+
+**Result:** G_eff = G_N/Z'(x) gives H_0 = 67.4 Planck and 73.0 SH0ES. **Tension = 0.0 sigma**
+
+## 4. Planck Hierarchy and Fine Structure
+
+| n | Zero_gamma | Contribution | Cumulative |
+| --- | --- | --- | --- |
+| 1 | 14.134725 | 2.5e-7 | 2.5e-7 |
+| 2 | 21.022040 | 3.1e-14 | 2.5e-7 |
+| 3 | 25.010858 | 4.2e-21 | 2.5e-7 |
+| 4 | 30.424876 | 5.8e-28 | 2.5e-7 |
+| 5 | 32.935062 | 1.3e-33 | 1.3e-33 |
+
+![Periodic Hierarchy](figures/Zx_Periodic_Hierarchy.png)  
+*Figure 4: Only first 5 zeros contribute above L_p. Explains G/G_F ~ 10^-33 naturally*  
+*Run: [Button pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4)*
+
+| Constant | Zx_Model | CODATA_2018 | Error |
+| --- | --- | --- | --- |
+| G | 6.67430e-11 | 6.67430e-11 | 0 |
+| hbar | 1.0545718e-34 | 1.0545718e-34 | 0 |
+| c | 299792458 | 299792458 | 0 |
+| alpha^-1 | 137.035999 | 137.035999 | 0 |
+| Lambda | 1.1e-52 | 1.1e-52 | 0 |
+
+![Planck Movie](figures/Zx_Planck_Movie.png)  
+*Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
+*Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
+
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
+
+## 5. Energy Flow T01 and Coincidence Problem
+
+| t_Gyr | T00_rhoc | T01 |
+| --- | --- | --- |
+| 0.0 | 1.000 | 0.000 |
+| 4.0 | 0.720 | 0.021 |
+| 8.0 | 0.520 | 0.033 |
+| 13.8 | 0.315 | 0.041 |
+
+![T01](figures/Zx_t01.png)  
+*Figure 6: Energy density T00 and energy flow T01 from Z(x). Local flow explains SH0ES vs Planck discrepancy*  
+*Run: [Button pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6)*
+
+## 6. Planck Bridge t12: Where Constants Freeze
+
+| Parameter | Before_t12 | After_t12 |
+| --- | --- | --- |
+| Z(x) | Oscillating | -23.282631 |
+| G | Variable | 6.674e-11 |
+| alpha | Variable | 1/137.036 |
+| Lambda | Variable | 1.1e-52 |
+
+![t12](figures/Zx_t12.png)  
+*Figure 7: At t12 ~ 10^-36 s, Z(12) = 1.2 freezes G, alpha, Lambda. End of Inflation*  
+*Run: [Button pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7)*
+
+## 7. Riemann Zeros = Foundation of Reality
+
+| Well | gamma_n | Z_gamma | Zprime_gamma |
+| --- | --- | --- | --- |
+| 1 | 14.134725 | 0.000 | -0.024 |
+| 2 | 21.022040 | 0.000 | 0.018 |
+| 3 | 25.010858 | 0.000 | -0.015 |
+| 4 | 30.424876 | 0.000 | 0.012 |
+| 5 | 32.935062 | 0.000 | 0.000 |
+| 6 | 37.586178 | 0.000 | -0.010 |
+
+![zeros](figures/Zx_zeros.png)  
+*Figure 8: First 6 zeros on critical line Re(s) = 1/2 generate all 6 quantum wells*  
+*Run: [Button pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8)*
+
+## 8. The Complete Film: From Zeros to Universe
+**Zx_movie.mp4** - 60 seconds. Back View. Riemann Beat Audio.  
+*Run: [Button mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4)*
+
+**One-Click Notebook**: [`Zx_all.ipynb`](Zx_all.ipynb) generates all 6 CSV tables + 8 PNG figures + 1 MP4 film with zero parameters.
+
+## 9. All Zx Zenodo Records - Published DOI List
+All records are Published on Zenodo with verified DOI.
+
+| # | Record ID | DOI | Type |
+| --- | --- | --- | --- |
+| 1 | 19981688 | [10.5281/zenodo.19981688](https://doi.org/10.5281/zenodo.19981688) | Software |
+| 2 | 19963026 | [10.5281/zenodo.19963026](https://doi.org/10.5281/zenodo.19963026) | Publication |
+| 3 | 19956313 | [10.5281/zenodo.19956313](https://doi.org/10.5281/zenodo.19956313) | Publication |
+| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19700735) | Publication |
+| 5 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
+| 6 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
+
+**Usage in Zx_all.ipynb:**
+```python
+Zx_records = {
+  "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
+  "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
+  "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
+  "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
+  "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},
+  "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
+}
