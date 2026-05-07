@@ -123,4 +123,10 @@ All records are Published on Zenodo with verified DOI.
 
 ```python
 Zx_records = {
-    "19981688": {"doi": "10.5281/zenodo
+    "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
+    "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
+    "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
+    "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
+    "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},
+    "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
+}
