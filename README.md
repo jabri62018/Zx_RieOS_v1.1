@@ -16,7 +16,20 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **Version DOI v1.1:** https://doi.org/10.5281/zenodo.19981688
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
-
+#___________
+| Button | Input TARGET | Output | Description | Run on Mobile |
+| --- | --- | --- |
+| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
+| **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
+| **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
+| **pic3** | `pic3` | Zx_Universe_now.png | Hubble Tension = 0 | [Run pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3) |
+| **pic4** | `pic4` | Zx_Periodic_Hierarchy.png | 10^33 Hierarchy | [Run pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4) |
+| **pic5** | `pic5` | Zx_Planck_Movie.png | Constants Freeze | [Run pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5) |
+| **pic6** | `pic6` | Zx_t01.png | T01 Energy Flow | [Run pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6) |
+| **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7) |
+| **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8) |
+| **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4) |
+#______
 ## Run Live - One Click | Default = All
 [[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
@@ -54,6 +67,17 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
+#________
+
+| Well | gamma_n | Physics | Z(x) Prediction | Status |
+| --- | --- | --- |
+| 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
+| 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
+| 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
+| 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
+| 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+#_________
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
 | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
