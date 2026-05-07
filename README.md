@@ -17,15 +17,14 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
+####________
 ## Run Live - One Click | Default = All
-| Button | Input TARGET | Output | Description | Run on Mobile |
-| --- | --- | --- | --- | --- |
-| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
 [[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**  
 **Note:** Images below appear after first run.
+
 | Button | Input TARGET | Output | Description | Run on Mobile |
 | --- | --- | --- |
 | **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
@@ -38,6 +37,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 | **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7) |
 | **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8) |
 | **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4) |
+#_________
 
 **How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output
 
