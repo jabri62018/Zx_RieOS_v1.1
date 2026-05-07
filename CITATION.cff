@@ -25,5 +25,17 @@ identifiers:
     value: "10.5281/zenodo.19981688"
     description: "Superseded: Software v1.0"
     - type: doi
+    value: "10.5281/zenodo.19963026"
+    description: "Superseded: Publication"
+    - type: doi
+    value: "10.5281/zenodo.19956313"
+    description: "Superseded: Publication"
+    - type: doi
+    value: "10.5281/zenodo.19700735"
+    description: "Superseded: Publication"
+    - type: doi
+    value: "10.5281/zenodo.19644689"
+    description: "Superseded: Dataset"
+    - type: doi
     value: "10.5281/zenodo.19645066"
-    description: "Superseded: Early publication"
+    description: "Superseded: Publication"
