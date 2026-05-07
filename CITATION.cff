@@ -1,31 +1,12 @@
 cff-version: 1.2.0
-message: "If you use Zx_RieOS in your work, please cite it using the following metadata."
-title: "Zx_RieOS v1.1: Zero-Parameter Theory of Everything - Complete Package (Code + Film + Paper)"
+message: "If you use Zx_RieOS in your work, please cite it."
+title: "Zx_RieOS v1.1: Zero-Parameter Theory of Everything"
 version: 1.1
 doi: 10.5281/zenodo.20070594
-date-released: 2026-05-07
+date-released: '2026-05-07'
 authors:
     - family-names: Al-Jabri
     given-names: Abdulla
-    orcid: https://orcid.org/0009-0003-3319-3822
-url: "https://github.com/jabri62018/Zx_RieOS_v1.1"
-repository-code: "https://github.com/jabri62018/Zx_RieOS_v1.1"
+    orcid: 'https://orcid.org/0009-0003-3319-3822'
+url: 'https://github.com/jabri62018/Zx_RieOS_v1.1'
 license: MIT
-keywords:
-    - Zx_RieOS
-    - quantum-operating-system
-    - theory-of-everything
-    - zero-parameter-physics
-    - consciousness-model
-identifiers:
-    - type: doi
-    value: 10.5281/zenodo.20070594
-    - type: url
-    value: "https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/Zx_RieOS_v1.1/Zx_all.ipynb"
-    description: "All_in_one Colab Notebook"
-    - type: url
-    value: "https://www.overleaf.com/project/69fa16bcc399d5871697160a"
-    description: "Overleaf LaTeX Project"
-    - type: url
-    value: "https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.20070594"
-    description: "OpenAIRE Record"
