@@ -12,7 +12,7 @@
 
 ## Overview
 
-RiemannOS is a zero-parameter framework that derives all physics from the Riemann zeta zeros using the Mother Function Z(x). No free parameters. No dark energy. All constants emerge from pure numbers.
+RiemannOS is a zero-parameter framework testing if physics emerges from the Riemann zeta zeros using the Mother Function Z(x). No free parameters. All constants are derived from pure numbers.
 
 **Core Equation:**
 $$Z(x) = x^5 \ln(x) \sin\left(\frac{2\pi}{x}\right) \exp\left(-\frac{x}{x_p}\right)$$
@@ -52,25 +52,8 @@ $$Z_t = Z + C + A = 1$$
 | --- | --- | --- | --- |
 | Dark Energy w | -1.03 | DESI/Euclid BAO | 2026 |
 | G deviation | 7.3e-4 | 41.9 GeV scale | LHC |
-| Second G deviation | - | 2.31 TeV scale | LHC |
+| Second G deviation | TBD | 2.31 TeV scale | LHC |
 
 If DESI 2026 measures w != -1.03, the theory is wrong. This is real science.
 
 ## Repository Structure
-
-# Z(x): What if 5 numbers are enough?
-
-**Author:** Eng. Abdulla Al-Jabri, Sana'a, Yemen  
-**Status:** Hypothesis for testing  
-**License:** MIT
-
-### The Idea
-Take it easy. This is just a test.
-
-What if the first 5 Riemann zeros are enough to reproduce H0, w, and G?
-
-```python
-zeros = [14.134725, 21.022040, 25.010858, 30.424876, 32.935062]
-Z_t = Z + C + A = 1.000000
-H0 = 67.4  # km/s/Mpc
-w = -1.03
