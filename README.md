@@ -52,6 +52,23 @@ $$Z_t = Z + C + A = 1$$
 | **G deviation** | 7.3√ó10‚Åª‚Å∂ | 41.9 GeV scale | LHC |
 | **Second G deviation** | - | 2.31 TeV scale | LHC |
 
-If DESI 2026 measures w ‚â† -1.03, the theory is wrong. This is real science.
+If DESI 2026 measures w ‚âÑ1§7 -1.03, the theory is wrong. This is real science.
 
 ## Repository Structure
+
+# Z(x): What if 5 numbers are enough?
+
+**Author:** Eng. Abdulla Al-Jabri, Sana'a, Yemen î9ñ0î9î0
+**Status:** Hypothesis for testing
+**License:** MIT
+
+### The Idea
+Take it easy. This is just a test.
+
+What if the first 5 Riemann zeros are enough to reproduce HÅ6Æ8, w, and G?
+
+```python
+zeros = [14.134725, 21.022040, 25.010858, 30.424876, 32.935062]
+Z_t = Z + C + A = 1.000000
+H0 = 67.4 km/s/Mpc
+w = -1.03
