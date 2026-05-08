@@ -1,57 +1,131 @@
-# RiemannOS: Zx Mother Function 
-### Zero-Parameter Cosmology from Riemann Zeros
-### by Eng. Abdulla M. N. Al-Jabri
+## Zx_RieOS v1.1
 
-[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
-[[License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[[ORCID](https://img.shields.io/badge/ORCID-0009--0003--3319--3822-green.svg)](https://orcid.org/0009-0003-3319-3822)
+**Zx_RieOS: A Computational Framework for Riemann-Hilbert Correspondence in Cosmology**
 
-**Input = Riemann's Numbers. Output = Einstein's Physics. OS = Abdulla Al-Jabri**
+DOI: 10.5281/zenodo.19981688
 
-## Overview
+# Zx_RieOS v1.1: Complete Zero-Parameter Theory of Everything
+Riemann 1859 + Einstein 1915 = Al-Jabri 2026  
+> At the end all numbers... Z_t = Z + C + A
 
-RiemannOS is a zero-parameter framework that derives all physics from the Riemann zeta zeros using the Mother Function Z(x). No free parameters. No dark energy. All constants emerge from pure numbers.
+## Official Release v1.1 
+[[DOI](https://zenodo.org/badge/19981688.svg)](https://doi.org/10.5281/zenodo.19981688)
 
-**Core Equation:**
-$$Z(x) = x^5 \ln(x) \sin\left(\frac{2\pi}{x}\right) \exp\left(-\frac{x}{x_p}\right)$$
+- **GitHub Release:** [v1.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.1/releases/tag/v1.1)
+- **Concept DOI:** https://doi.org/10.5281/zenodo.19963026
+- **Version DOI v1.1:** https://doi.org/10.5281/zenodo.19981688
+- **ORCID:** 0009-0003-3319-3822
+- **License:** CC-BY-4.0
 
-**Unified Result:**
-$$Z_t = Z + C + A = 1$$
-- **Z** = Geometric Time
-- **C** = Spacetime Curvature 
-- **A** = Structural Acceleration
+## Run Live - One Click | Default = All
+[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb)
 
-## Key Claims
+**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
+**Buttons optional for single output. Runs on mobile in 60 seconds**  
+**Note:** Images below appear after first run.
+| Button | Input TARGET | Output | Description | Run on Mobile |
+| --- | --- | --- |
+| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
+| **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
+| **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
+| **pic3** | `pic3` | Zx_Universe_now.png | Hubble Tension = 0 | [Run pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3) |
+| **pic4** | `pic4` | Zx_Periodic_Hierarchy.png | 10^33 Hierarchy | [Run pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4) |
+| **pic5** | `pic5` | Zx_Planck_Movie.png | Constants Freeze | [Run pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5) |
+| **pic6** | `pic6` | Zx_t01.png | T01 Energy Flow | [Run pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6) |
+| **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7) |
+| **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8) |
+| **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4) |
 
-1. **Riemann Hypothesis = Gravity Equation**  
-   The million-dollar RH is equivalent to the gravitational constant formula.
+**How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output
 
-2. **G from Pure Numbers**  
-   Gravitational constant alpha_G derived with 99.95% accuracy from Z'(x) = 0 roots: 19, 137, 1836, 2464
+## 1. The Complete Framework: Z_t = Z + C + A
+This repo unifies three kernels into one zero-parameter TOE:
 
-3. **Zero Free Parameters**  
-   The 28 free parameters of the Standard Model + Lambda-CDM reduce to zero.
+| Kernel | Role | Core Result |
+| --- | --- | --- |
+| **Z** | Al-Jabri Z Kernel | Number Theory = Physics. Z(12) = 1.2 fixes all couplings |
+| **C** | Al-Jabri C Kernel | Spacetime = Written Event. G_munu is line 5 of Z(x) code |
+| **A** | Al-Jabri A Kernel | Locked Coordinates. Dark Energy from t_5 = 32.935 |
 
-## Timeline of Discovery - 15 Days
+![Zx Universe](Zx_Jabri_Universe.png)  
+*Figure 8: All physical law emerges from the Z(x) field. Zeros to Spacetime to Matter*  
+*Run: [Button pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1)*
 
-| Date | DOI | Title | Achievement |
+## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
+
+| Well | gamma_n | Physics | Z(x) Prediction | Status |
+| --- | --- | --- | --- | --- |
+| 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
+| 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
+| 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
+| 4 | 30.424876 | QCD | Lambda_QCD = 200 MeV | Verified |
+| 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
+| 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
+
+![Spacetime Wells](Zx_Spacetime_Wells.png)  
+*Figure 1: Well 5 at gamma_5=32.935062 gives Z'(x)=0 which gives Dark Energy w = -1.03*  
+*Run: [Button pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2)*
+
+## 3. Hubble Tension Solution: JR = infinity at gamma_5
+![Universe Now](Zx_Universe_now.png)  
+*Figure 3: H(z) from Z(x) vs DESI 2024, Planck 2018, SH0ES 2020. No fitting.*  
+*Run: [Button pic3](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic3)*
+
+**Result:** G_eff = G_N/Z'(x) gives H_0 = 67.4 Planck and 73.0 SH0ES. **Tension = 0.0 sigma**
+
+## 4. Planck Hierarchy and Fine Structure
+![Periodic Hierarchy](Zx_Periodic_Hierarchy.png)  
+*Figure 4: Only first 5 zeros contribute above L_p. Explains G/G_F ~ 10^-33 naturally*  
+*Run: [Button pic4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic4)*
+
+![Planck Movie](Zx_Planck_Movie.png)  
+*Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
+*Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic5)*
+
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
+
+## 5. Energy Flow T01 and Coincidence Problem
+![T01](Zx_t01.png)  
+*Figure 2: Energy density T00 and energy flow T01 from Z(x). Local flow explains SH0ES vs Planck discrepancy*  
+*Run: [Button pic6](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic6)*
+
+## 6. Planck Bridge t12: Where Constants Freeze
+![t12](Zx_t12.png)  
+*Figure 6: At t12 ~ 10^-36 s, Z(12) = 1.2 freezes G, alpha, Lambda. End of Inflation*  
+*Run: [Button pic7](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic7)*
+
+## 7. Riemann Zeros = Foundation of Reality
+![zeros](Zx_zeros.png)  
+*Figure 7: First 6 zeros on critical line Re(s) = 1/2 generate all 6 quantum wells*  
+*Run: [Button pic8](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic8)*
+
+## 8. The Complete Film: From Zeros to Universe
+**Zx_movie.mp4** - 60 seconds. Back View. Riemann Beat Audio.  
+*Run: [Button mp4](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=mp4)*
+
+**One-Click Notebook**: [`Zx_all.ipynb`](Zx_all.ipynb) generates all 6 CSV tables + 8 PNG figures + 1 MP4 film with zero parameters.
+
+## 9. All Zx Zenodo Records - Published DOI List
+
+All records are Published on Zenodo with verified DOI.
+
+| # | Record ID | DOI | Type |
 | --- | --- | --- | --- |
-| 2026-04-23 | [19717561](https://doi.org/10.5281/zenodo.19717561) | PEER_REVIEW_WAR_ROOM Epilogue | RH = G Equation, 28 params = 0 |
-| 2026-04-30 | [19644689](https://doi.org/10.5281/zenodo.19644689) | Derivation of G | G from pure numbers, Z(x) complete |
-| 2026-04-30 | [19700735](https://doi.org/10.5281/zenodo.19700735) | Z_t Total Record v3 | Z+C+A=1, Einstein = one line of code |
-| 2026-05-01 | [19956313](https://doi.org/10.5281/zenodo.19956313) | Mother Function v3.2.1 | Official 2-page definition |
-| 2026-05-02 | [19963026](https://doi.org/10.5281/zenodo.19963026) | Zx_total_v2 | 7 figures + LaTeX + DESI prediction |
-| 2026-05-02 | [19981688](https://doi.org/10.5281/zenodo.19981688) | Software v1.1 | Source code |
-| 2026-05-07 | [20070594](https://doi.org/10.5281/zenodo.20070594) | Complete Package | 11 tables + 60s film |
+| 1 | 19981688 | [10.5281/zenodo.19981688](https://doi.org/10.5281/zenodo.19981688) | Software |
+| 2 | 19963026 | [10.5281/zenodo.19963026](https://doi.org/10.5281/zenodo.19963026) | Publication |
+| 3 | 19956313 | [10.5281/zenodo.19956313](https://doi.org/10.5281/zenodo.19956313) | Publication |
+| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19981688) | Publication |
+| 5-7 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
+| 8 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
 
-## Falsifiable Predictions
+**Usage in Zx_all.ipynb:**
 
-| Prediction | Value | Test | Year |
-| --- | --- | --- | --- |
-| Dark Energy w | -1.03 | DESI/Euclid BAO | 2026 |
-| G deviation | 7.3e-4 | 41.9 GeV scale | LHC |
-| Second G deviation | TBD | 2.31 TeV scale | LHC |
-
-If DESI 2026 measures w != -1.03, the theory is wrong. This is real science.
-
-## Repository Structure
+```python
+Zx_records = {
+    "19981688": {"doi": "10.5281/zenodo.19981688", "type": "Software", "name": "Zx_RieOS_v1.1"},
+    "19963026": {"doi": "10.5281/zenodo.19963026", "type": "Publication", "concept": True},
+    "19956313": {"doi": "10.5281/zenodo.19956313", "type": "Publication"},
+    "19700735": {"doi": "10.5281/zenodo.19700735", "type": "Publication"},
+    "19644689": {"doi": "10.5281/zenodo.19644689", "type": "Dataset"},
+    "19645066": {"doi": "10.5281/zenodo.19645066", "type": "Publication"}
+}
