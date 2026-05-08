@@ -1,14 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use Zx_RieOS, please cite it as below."
+type: software
+title: "Zx_RieOS v1.1.15: RiemannOS - The Operating System of the Universe"
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "Zx_RieOS_v1.1"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
+    - family-names: Al-Jabri
+    given-names: Abdulla M. N.
+    affiliation: "Independent Engineer, Sana'a, Yemen"
+    orcid: "https://orcid.org/0009-0003-3319-3822"
+version: v1.1.15
+doi: 10.5281/zenodo.20070594
 date-released: 2026-05-07
-url: "https://github.com/jabri62018/Zx_RieOS_v1.1"
+url: "https://doi.org/10.5281/zenodo.20070594"
+repository-code: "https://github.com/Jabri62018/Zx_Mother_Function_Jabri"
+license: CC-BY-4.0
+keywords:
+    - Riemann Hypothesis
+    - Zero-Parameter Cosmology
+    - Quantum Gravity
+    - Dark Energy
+    - Zx Mother Function
