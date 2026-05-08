@@ -1,4 +1,4 @@
-## Zx_RieOS v1.1
+# Zx_RieOS v1.1
 
 **Zx_RieOS: A Computational Framework for Riemann-Hilbert Correspondence in Cosmology**
 
@@ -23,8 +23,9 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**  
 **Note:** Images below appear after first run.
+
 | Button | Input TARGET | Output | Description | Run on Mobile |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb) Default |
 | **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic1) |
 | **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/main/Zx_all.ipynb?target=pic2) |
@@ -114,7 +115,7 @@ All records are Published on Zenodo with verified DOI.
 | 1 | 19981688 | [10.5281/zenodo.19981688](https://doi.org/10.5281/zenodo.19981688) | Software |
 | 2 | 19963026 | [10.5281/zenodo.19963026](https://doi.org/10.5281/zenodo.19963026) | Publication |
 | 3 | 19956313 | [10.5281/zenodo.19956313](https://doi.org/10.5281/zenodo.19956313) | Publication |
-| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19981688) | Publication |
+| 4 | 19700735 | [10.5281/zenodo.19700735](https://doi.org/10.5281/zenodo.19700735) | Publication |
 | 5-7 | 19644689 | [10.5281/zenodo.19644689](https://doi.org/10.5281/zenodo.19644689) | Dataset |
 | 8 | 19645066 | [10.5281/zenodo.19645066](https://doi.org/10.5281/zenodo.19645066) | Publication |
 
