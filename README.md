@@ -1,29 +1,57 @@
-# Zx_RieOS v1.1 Final
-**Zero-Parameter Physics: Z_t = Z + C + A**  
-**Al-Jabri 2026 | Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
+# RiemannOS: Zx Mother Function 
+### Zero-Parameter Cosmology from Riemann Zeros
+### by Eng. Abdulla M. N. Al-Jabri
 
-**DOI: 10.5281/zenodo.20070594**  
-**ORCID: 0009-0003-3319-3822**  
-**Date: 2026-05-07**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19717561.svg)](https://doi.org/10.5281/zenodo.19717561)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--3319--3822-green.svg)](https://orcid.org/0009-0003-3319-3822)
 
-## Main Sources
-- **All_in_one Notebook:** https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.1/blob/Zx_RieOS_v1.1/Zx_all.ipynb
-- **Database / GitHub:** https://github.com/jabri62018/Zx_RieOS_v1.1
-- **Zx_all_tex / Overleaf:** https://www.overleaf.com/project/69fa16bcc399d5871697160a
+**👁️🌎👁️ Input = Riemann's Numbers. Output = Einstein's Physics. OS = Abdulla Al-Jabri**
 
-## Related Zx_RieOS Records
-This v1.1 release supersedes and unifies all previous records:
+## Overview
 
-**DOI Collection:**
-1. Software: https://doi.org/10.5281/zenodo.19981688
-2. Publication: https://doi.org/10.5281/zenodo.19963026
-3. Publication: https://doi.org/10.5281/zenodo.19956313
-4. Publication: https://doi.org/10.5281/zenodo.19700735
-5. Dataset: https://doi.org/10.5281/zenodo.19644689
-6. Publication: https://doi.org/10.5281/zenodo.19645066
-7. **Current v1.1 Final: https://doi.org/10.5281/zenodo.20070594**
+RiemannOS is a zero-parameter framework that derives all physics from the Riemann zeta zeros using the Mother Function Z(x). No free parameters. No dark energy. All constants emerge from pure numbers.
 
-**Contents:** 11 CSV + 11 PNG + 1 PDF + 1 MP4 + CFF + Notebook  
-**All constants derived from Zx_Core(n,t,key). Zero free parameters.**
+**Core Equation:**
+$$Z(x) = x^5 \ln(x) \sin\left(\frac{2\pi}{x}\right) \exp\left(-\frac{x}{x_p}\right)$$
 
-the end all numbers... Z_t = Z + C + A
+**Unified Result:**
+$$Z_t = Z + C + A = 1$$
+- **Z** = Geometric Time
+- **C** = Spacetime Curvature 
+- **A** = Structural Acceleration
+
+## Key Claims
+
+1. **Riemann Hypothesis = Gravity Equation**  
+   The million-dollar RH is equivalent to the gravitational constant formula.
+
+2. **G from Pure Numbers**  
+   Gravitational constant α_G derived with 99.95% accuracy from Z'(x) = 0 roots: 19, 137, 1836, 2464
+
+3. **Zero Free Parameters**  
+   The 28 free parameters of the Standard Model + ΛCDM reduce to zero.
+
+## Timeline of Discovery - 15 Days
+
+| Date | DOI | Title | Achievement |
+| --- | --- | --- | --- |
+| **2026-04-23** | [19717561](https://doi.org/10.5281/zenodo.19717561) | PEER_REVIEW_WAR_ROOM Epilogue | RH = G Equation, 28 params = 0 |
+| **2026-04-30** | [19644689](https://doi.org/10.5281/zenodo.19644689) | Derivation of G | G from pure numbers, Z(x) complete |
+| **2026-04-30** | [19700735](https://doi.org/10.5281/zenodo.19700735) | Z_t Total Record v3 | Z+C+A=1, Einstein = one line of code |
+| **2026-05-01** | [19956313](https://doi.org/10.5281/zenodo.19956313) | Mother Function v3.2.1 | Official 2-page definition |
+| **2026-05-02** | [19963026](https://doi.org/10.5281/zenodo.19963026) | Zx_total_v2 | 7 figures + LaTeX + DESI prediction |
+| **2026-05-02** | [19981688](https://doi.org/10.5281/zenodo.19981688) | Software v1.1 | Source code |
+| **2026-05-07** | [20070594](https://doi.org/10.5281/zenodo.20070594) | Complete Package | 11 tables + 60s film |
+
+## Falsifiable Predictions
+
+| Prediction | Value | Test | Year |
+| --- | --- | --- | --- |
+| **Dark Energy w** | -1.03 | DESI/Euclid BAO | 2026 |
+| **G deviation** | 7.3×10⁻⁶ | 41.9 GeV scale | LHC |
+| **Second G deviation** | - | 2.31 TeV scale | LHC |
+
+If DESI 2026 measures w ≠ -1.03, the theory is wrong. This is real science.
+
+## Repository Structure

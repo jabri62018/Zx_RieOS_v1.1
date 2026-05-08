@@ -1,11 +1,11 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-type: software
-title: "Zx_RieOS v1.1: Zero-Parameter Theory of Everything"
-authors:
-    - family-names: Al-Jabri
-    given-names: Abdulla
-version: 1.1
-doi: 10.5281/zenodo.20070594
-date-released: '2026-05-07'
-license: MIT
+@software{AlJabri2026ZxRieOS,
+  author       = {Al-Jabri, Abdulla M. N.},
+  title        = {Zx_RieOS v1.1.15: RiemannOS - The Operating System of the Universe},
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {v1.1.15},
+  doi          = {10.5281/zenodo.20070594},
+  url          = {https://doi.org/10.5281/zenodo.20070594},
+  note         = {Engineer, Independent Researcher, Sana'a, Yemen},
+  orcid        = {0009-0003-3319-3822}
+}
